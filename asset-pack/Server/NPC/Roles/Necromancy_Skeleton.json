@@ -1,0 +1,49 @@
+{
+  "Type": "Variant",
+  "Reference": "Template_Summoned_Ally",
+  "Modify": {
+    "MaxHealth": 92,
+    "DespawnTimer": 300,
+    "HearingRange": 8,
+    "ViewSector": 270,
+    "Appearance": "Skeleton",
+    "Weapons": [
+      "Weapon_Sword_Steel_Rusty"
+    ],
+    "Attack": "Root_NPC_Skeleton_Knight_Attack",
+    "OffHand": [],
+    "FlockArray": [
+      "Necromancy_Skeleton"
+    ],
+    "AttackDistance": 2,
+    "TargetRange": 2,
+    "DesiredAttackDistanceRange": [
+      1,
+      1.6
+    ],
+    "CombatBehaviorDistance": 3,
+    "CombatStrafeWeight": 5,
+    "CombatBackOffDistanceRange": [
+      1,
+      2
+    ],
+    "BlockProbability": 0,
+    "BreathesInWater": true,
+    "NameTranslationKey": {
+      "Compute": "NameTranslationKey"
+    },
+    "DeathParticles": {
+      "Compute": "DeathParticles"
+    }
+  },
+  "Parameters": {
+    "NameTranslationKey": {
+      "Value": "server.npcRoles.Skeleton.name",
+      "Description": "Translation key for NPC name display"
+    },
+    "DeathParticles": {
+      "Value": "Effect_Death_Bones",
+      "Description": "The particle system that spawns when the NPC's corpse disappears."
+    }
+  }
+}

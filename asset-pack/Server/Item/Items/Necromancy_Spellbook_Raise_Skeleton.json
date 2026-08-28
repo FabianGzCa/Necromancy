@@ -1,0 +1,7 @@
+{
+"Parent": "Weapon_Spellbook_Rekindle_Embers",
+"Interactions": {
+    "Primary": "Necromancy_Raise_Skeleton",
+    "Secondary": "Necromancy_Raise_Skeleton"
+}
+}

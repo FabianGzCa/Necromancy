@@ -1,0 +1,66 @@
+{
+"Type": "Charging",
+"Effects": {
+    "WorldSoundEventId": "SFX_Skeleton_Mage_Spellbook_Charge",
+    "ItemAnimationId": "CastHurlCharging"
+},
+"AllowIndefiniteHold": true,
+"HorizontalSpeedMultiplier": 0.8,
+"OnItemChangeBehavior": "Cancel",
+"RunTime": 0,
+"Next": {
+    "0": {
+    "Type": "Simple",
+    "Effects": {
+        "ItemAnimationId": "Interact"
+    }
+    },
+    "0.8": {
+    "Type": "RunOnBlockTypes",
+    "BlockSets": [
+        "Necromancy_Bones"
+    ],
+    "MaxCount": 1,
+    "Range": 5,
+    "Interactions": {
+        "Interactions": [
+        {
+            "Type": "Serial",
+            "Interactions": [
+            {
+                "Type": "SpawnNPC",
+                "WeightedEntityIds": [
+                {
+                    "Id": "Necromancy_Skeleton",
+                    "Weight": 100
+                }
+                ]
+            },
+            {
+                "Type": "DestroyBlock"
+            }
+            ]
+        }
+        ]
+    },
+    "Next": {
+        "Type": "Simple",
+        "Effects": {
+        "ItemAnimationId": "CastHurlCharged"
+        }
+    },
+    "Failed": {
+        "Type": "Simple",
+        "Effects": {
+        "ItemAnimationId": "Interact"
+        }
+    }
+    }
+},
+"Failed": {
+    "Type": "Simple",
+    "Effects": {
+    "ItemAnimationId": "Interact"
+    }
+}
+}
