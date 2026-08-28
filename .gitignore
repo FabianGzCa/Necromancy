@@ -1,0 +1,49 @@
+# Operating systems
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Fleet
+.fleet/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Vim / Neovim
+*.swp
+*.swo
+*~
+
+# Temporary / backup files
+*.tmp
+*.bak
+*.log
+
+# Java / Gradle
+.gradle/
+build/
+out/
+bin/
+*.class
+
+# JVM crash logs
+hs_err_pid*
+
+# Local environment files / secrets
+.env
+.env.*
+!.env.example
