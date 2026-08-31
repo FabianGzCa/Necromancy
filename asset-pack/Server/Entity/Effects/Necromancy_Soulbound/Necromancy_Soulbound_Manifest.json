@@ -1,6 +1,6 @@
 {
 "Duration": 2.5,
-"Infinite": false,
+"Infinite": true,
 "ApplicationEffects": {
     "ModelVFXId": "Necromancy_Soulbound_Manifest"
 },

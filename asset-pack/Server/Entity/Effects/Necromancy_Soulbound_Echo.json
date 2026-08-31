@@ -1,7 +1,0 @@
-{
-"Infinite": true,
-"ApplicationEffects": {
-    "ModelVFXId": "Necromancy_Soulbound_Echo"
-},
-"OverlapBehavior": "Overwrite"
-}
