@@ -1,0 +1,13 @@
+{
+  "SwitchTo": "Transparency",
+  "EffectDirection": "None",
+  "AnimationDuration": 0.4,
+  "AnimationRange": {
+    "X": 0.0,
+    "Y": 1.0
+  },
+  "LoopOption": "PlayOnce",
+  "CurveType": "QuartOut",
+  "UseBloomOnHighlight": false,
+  "UseProgessiveHighlight": false
+}

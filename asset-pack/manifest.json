@@ -1,0 +1,21 @@
+{
+  "Group": "FabianGzCa",
+  "Name": "Necromancy",
+  "Version": "0.0.1",
+  "Description": "A complete expansion of the Necromancer role for Hytale.",
+  "Authors": [
+    {
+      "Name": "Fabián González Castañeda",
+      "Email": "fabiangzca@gmail.com",
+      "Url": "https://fabiangzca.com/"
+    }
+  ],
+  "Website": "https://fabiangzca.com/necromancy/",
+  "ServerVersion": ">=0.6.0 <0.7.0",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}

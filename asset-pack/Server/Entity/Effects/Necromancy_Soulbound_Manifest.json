@@ -1,0 +1,8 @@
+{
+"Duration": 2.5,
+"Infinite": false,
+"ApplicationEffects": {
+    "ModelVFXId": "Necromancy_Soulbound_Manifest"
+},
+"OverlapBehavior": "Overwrite"
+}

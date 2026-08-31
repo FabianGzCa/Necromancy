@@ -1,0 +1,16 @@
+{
+  "SwitchTo": "PostColor",
+  "EffectDirection": "None",
+  "AnimationDuration": 15,
+  "AnimationRange": {
+    "X": 0.0,
+    "Y": 1.0
+  },
+  "LoopOption": "PlayOnce",
+  "CurveType": "Linear",
+  "HighlightThickness": 0.0,
+  "UseBloomOnHighlight": false,
+  "UseProgessiveHighlight": false,
+  "PostColor": "#B7E2D5",
+  "PostColorOpacity": 0.6
+}
