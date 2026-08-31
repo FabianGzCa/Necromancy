@@ -1,0 +1,23 @@
+{
+  "SwitchTo": "Transparency",
+  "EffectDirection": "None",
+  "AnimationDuration": 2.5,
+  "AnimationRange": {
+    "X": 0.2,
+    "Y": 0.05
+  },
+  "LoopOption": "PlayOnce",
+  "CurveType": "QuartOut",
+  "HighlightColor": "#B7E2D5",
+  "HighlightThickness": 0.24,
+  "UseBloomOnHighlight": false,
+  "UseProgessiveHighlight": true,
+  "NoiseScale": {
+    "X": 0.0,
+    "Y": 0.0
+  },
+  "NoiseScrollSpeed": {
+    "X": 0.00,
+    "Y": 0.00
+  }
+}
